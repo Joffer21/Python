@@ -7,4 +7,9 @@
     Um pacote contém todos os arquivos necessários para um módulo.
     Módulos são bibliotecas de código Python que você pode incluir em seu projeto.
 """
-import
+import camelcase
+
+c = camelcase.CamelCase()
+txt = "Hello world"
+
+print(c.hump(txt))
